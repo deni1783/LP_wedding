@@ -2954,10 +2954,108 @@ button {
   *zoom: 1;
 }
 .container {
+  position: relative;
   width: 100%;
   max-width: 1170px;
   margin: 0 auto;
 }
+.sandwich {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 15px;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #fff;
+  border-radius: 50px;
+}
+.sandwich-line {
+  position: absolute;
+  left: 50%;
+  margin-left: -12.5px;
+  display: block;
+  width: 25px;
+  height: 4px;
+  background-color: #fff;
+}
+.sandwich-line--top {
+  top: 13px;
+}
+.sandwich-line--middle {
+  top: 21px;
+}
+.sandwich-line--bottom {
+  top: 29px;
+}
 header {
-  background: #007558 url("../img/general/header-bg.jpg") 0 0 no-repeat;
+  background: #007558 url("../img/general/header-bg.jpg") center no-repeat;
+  height: 70px;
+  color: #fff;
+}
+header .container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 70px;
+  padding: 15px 0;
+}
+.header-logo {
+  position: relative;
+  top: 35px;
+}
+.header-about span {
+  display: block;
+  font-size: 16px;
+}
+.header-company__name {
+  margin-bottom: 5px;
+  font-family: "PTSansBold", Arial, sans-serif;
+  text-transform: uppercase;
+}
+.header-company__descr {
+  font-family: "PTSansRegular", Arial, sans-serif;
+}
+.header-phone {
+  position: relative;
+  padding-left: 35px;
+}
+.header-phone:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-left: -12px;
+  display: block;
+  width: 25px;
+  height: 25px;
+  background: url("../img/svg/phone.svg") 0 0 no-repeat;
+  background-size: 100%;
+}
+.header-phone a {
+  display: block;
+  color: #fff;
+  font-family: "PTSansBold", Arial, sans-serif;
+  font-size: 20px;
+}
+.header-phone a:first-child {
+  margin-bottom: 5px;
+}
+.g-btn {
+  display: inline-block;
+  height: 30px;
+  border: 1px solid #fff;
+  line-height: 28px;
+  border-radius: 20px;
+  padding: 0 20px;
+  color: #fff;
+  background-color: #007558;
+  cursor: pointer;
+  transition: all linear 0.3s;
+}
+.g-btn:hover {
+  background-color: #fff;
+  color: #007558;
 }
