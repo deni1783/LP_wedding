@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "PTSansRegular";
+  src: url("../fonts/PTSans/PT_Sans-Web-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PTSansItalic";
+  src: url("../fonts/PTSans/PT_Sans-Web-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PTSansBold";
+  src: url("../fonts/PTSans/PT_Sans-Web-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PTSansBoldItalic";
+  src: url("../fonts/PTSans/PT_Sans-Web-BoldItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "kuraleregular";
+  src: url("../fonts/Kurale/Kurale-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}

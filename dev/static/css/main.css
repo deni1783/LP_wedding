@@ -2877,10 +2877,10 @@ img.mfp-img {
 
 html {
   line-height: 1;
-  font-size: 14px;
+  font-size: 18px;
 }
 body {
-  font-family: mainFont;
+  font-family: "PTSansRegular", Arial, sans-serif;
 }
 h1,
 h2,
@@ -2953,8 +2953,8 @@ button {
 .clearfix {
   *zoom: 1;
 }
-.wrapper {
+.container {
   width: 100%;
-  max-width: 1000px;
+  max-width: 1170px;
   margin: 0 auto;
 }
