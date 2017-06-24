@@ -2958,3 +2958,6 @@ button {
   max-width: 1170px;
   margin: 0 auto;
 }
+header {
+  background: #007558 url("../img/general/header-bg.jpg") 0 0 no-repeat;
+}
